@@ -28,11 +28,14 @@ body {
     
 }
 
+img {
+    display: block;
+}
+
 #image {
     border-width:5px;
     border-style: solid;
     border-color: blue;
-
 }
 
 #img-caption {
@@ -48,45 +51,10 @@ body {
     text-indent: 20px;
 }
 
-a :hover {
+a :hover{
     color: rgb(153, 153, 208);
     background-color: aqua;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #image {
     max-width: 100%;
     height:auto;
