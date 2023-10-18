@@ -30,6 +30,7 @@ body {
 
 img {
     display: block;
+    
 }
 
 #image {
@@ -37,6 +38,8 @@ img {
     border-style: solid;
     border-color: blue;
 }
+
+
 
 #img-caption {
     text-align: center;
@@ -51,7 +54,7 @@ img {
     text-indent: 20px;
 }
 
-a :hover{
+a:hover{
     color: rgb(153, 153, 208);
     background-color: aqua;
 }
