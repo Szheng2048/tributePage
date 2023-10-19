@@ -37,9 +37,11 @@ img {
     border-width:5px;
     border-style: solid;
     border-color: blue;
+    max-width: 100%;
+    height:auto;
+    display: block;
+    margin: auto;
 }
-
-
 
 #img-caption {
     text-align: center;
@@ -57,10 +59,4 @@ img {
 a:hover{
     color: rgb(153, 153, 208);
     background-color: aqua;
-}
-#image {
-    max-width: 100%;
-    height:auto;
-    display: block;
-    margin: auto;
 }
